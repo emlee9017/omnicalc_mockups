@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="icon" type="image" href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/100px-Ruby_logo.svg.png">
+  
   <title>Omnicalc</title>
 
   <!-- Connect to Bootstrap CSS -->
@@ -23,7 +25,88 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
 
-</body>
-</html>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"> <i class="fa fa-calculator"></i> Omnicalc</a>
+      </div> <!-- /.navar-header -->
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav visible-sm">
+          <li><a href="C:/Sites/omnicalc_mockups/word_count/new_start.html"><i class="fa fa-book"></i> Word Count</a></li>
+          <li><a href="C:/Sites/omnicalc_mockups/loan_payment/new_start.html"><i class="fa fa-money"></i> Loan Payment</a></li>
+          <li><a href="C:/Sites/omnicalc_mockups/time_between/new_start.html"><i class="fa fa-clock-o"></i> Time Between</a></li>
+          <li><a href="C:/Sites/omnicalc_mockups/descriptive_statistics/new_start.html"><i class="fa fa-bar-chart"></i> Descriptive Statistics</a></li> 
+        </ul>
+      </div><!-- /.container-fluid -->
+    </nav>
+
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-3 hidden-sm">
+          <div class="list-group">
+            <a href="C:/Sites/omnicalc_mockups/word_count/new_start.html" class="list-group-item"><i class="fa fa-book"></i> Word Count</a>
+            <a href="C:/Sites/omnicalc_mockups/loan_payment/new_start.html" class="list-group-item"><i class="fa fa-money"></i> Loan Payment</a>
+            <a href="C:/Sites/omnicalc_mockups/time_between/new_start.html" class="list-group-item"><i class="fa fa-clock-o"></i> Time Between</a>
+            <a href="C:/Sites/omnicalc_mockups/descriptive_statistics/new_start.html" class="list-group-item"><i class="fa fa-bar-chart"></i> Descriptive Statistics</a> 
+          </div>
+        </div>
+
+        <div class="col-md-9">
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">New Time Between Calcuation</h3>
+            </div>
+
+            <div class="panel-body"> 
+              <form action="#" class="form-horizontal">               
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">Starting Time</label>
+                  <div class="col-sm-10">
+                    <div class="input-group">
+                      <input class="form-control" type="text" name="start_time" id="end_time" aria-describedby="basic-addon2">
+                      <span class="input-group-addon" ><i class="fa fa-calendar"></i></span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">Ending Time</label>
+                  <div class="col-sm-10">
+                    <div class="input-group">
+                    <input type="text" class="form-control" aria-describedby="basic-addon2">
+                      <span class="input-group-addon" id="basic-addon2"><i class="fa fa-calendar"></i></span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="col-sm-2"></div>
+                  <div class="col-sm-10">
+                    <a class="btn btn-primary btn-block" href="C:/Sites/omnicalc_mockups/time_between/results_start.html">Submit</a>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </body>
+  </html>
